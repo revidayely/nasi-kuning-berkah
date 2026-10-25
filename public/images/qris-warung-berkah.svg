@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .header-bg { fill: #c00000; }
+      .text-white { fill: #ffffff; font-family: 'Segoe UI', Arial, sans-serif; font-weight: bold; }
+      .merchant-name { fill: #111827; font-family: 'Segoe UI', Arial, sans-serif; font-weight: 900; font-size: 17px; text-anchor: middle; }
+      .nmid { fill: #4b5563; font-family: 'Courier New', monospace; font-size: 13px; text-anchor: middle; font-weight: bold; }
+      .footer-text { fill: #6b7280; font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; text-anchor: middle; }
+      .qr-pixel { fill: #000000; }
+      .border-box { stroke: #e5e7eb; stroke-width: 2; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="400" height="520" rx="20" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+
+  <!-- Top QRIS Red Header -->
+  <path d="M 0 20 Q 0 0 20 0 L 380 0 Q 400 0 400 20 L 400 70 L 0 70 Z" fill="#b91c1c" />
+  
+  <!-- QRIS Text Logo -->
+  <text x="200" y="38" class="text-white" font-size="24" letter-spacing="3" text-anchor="middle">QRIS</text>
+  <text x="200" y="55" class="text-white" font-size="9" letter-spacing="1" font-weight="normal" text-anchor="middle">PEMBAYARAN DIGITAL NASIONAL</text>
+
+  <!-- Merchant Info -->
+  <text x="200" y="100" class="merchant-name">WARUNG NASI KUNING BERKAH</text>
+  <text x="200" y="120" class="nmid">NMID : ID1020268899120</text>
+  <line x1="40" y1="135" x2="360" y2="135" stroke="#e5e7eb" stroke-dasharray="4" />
+
+  <!-- QR Outer Box -->
+  <rect x="55" y="145" width="290" height="290" rx="14" class="border-box" />
+
+  <!-- QR Code Mock Pattern -->
+  <g transform="translate(75, 165)">
+    <!-- Top Left Finder Pattern -->
+    <rect x="0" y="0" width="60" height="60" fill="#000000" rx="6"/>
+    <rect x="10" y="10" width="40" height="40" fill="#ffffff" rx="4"/>
+    <rect x="20" y="20" width="20" height="20" fill="#000000" rx="2"/>
+
+    <!-- Top Right Finder Pattern -->
+    <rect x="190" y="0" width="60" height="60" fill="#000000" rx="6"/>
+    <rect x="200" y="10" width="40" height="40" fill="#ffffff" rx="4"/>
+    <rect x="210" y="20" width="20" height="20" fill="#000000" rx="2"/>
+
+    <!-- Bottom Left Finder Pattern -->
+    <rect x="0" y="190" width="60" height="60" fill="#000000" rx="6"/>
+    <rect x="10" y="200" width="40" height="40" fill="#ffffff" rx="4"/>
+    <rect x="20" y="210" width="20" height="20" fill="#000000" rx="2"/>
+
+    <!-- Alignment Pattern -->
+    <rect x="180" y="180" width="30" height="30" fill="#000000" rx="4"/>
+    <rect x="188" y="188" width="14" height="14" fill="#ffffff" rx="2"/>
+    <rect x="192" y="192" width="6" height="6" fill="#000000"/>
+
+    <!-- Mock QR Matrix Dots & Data Blocks -->
+    <rect x="70" y="10" width="10" height="20" fill="#000"/>
+    <rect x="90" y="0" width="20" height="10" fill="#000"/>
+    <rect x="120" y="10" width="10" height="10" fill="#000"/>
+    <rect x="140" y="0" width="20" height="20" fill="#000"/>
+    <rect x="170" y="10" width="10" height="30" fill="#000"/>
+
+    <rect x="70" y="40" width="20" height="20" fill="#000"/>
+    <rect x="100" y="30" width="20" height="10" fill="#000"/>
+    <rect x="130" y="40" width="30" height="10" fill="#000"/>
+
+    <rect x="10" y="70" width="20" height="10" fill="#000"/>
+    <rect x="40" y="80" width="10" height="20" fill="#000"/>
+    <rect x="70" y="70" width="10" height="30" fill="#000"/>
+    <rect x="90" y="80" width="30" height="20" fill="#000"/>
+    <rect x="130" y="70" width="10" height="20" fill="#000"/>
+    <rect x="150" y="80" width="20" height="10" fill="#000"/>
+    <rect x="180" y="70" width="20" height="20" fill="#000"/>
+    <rect x="220" y="70" width="20" height="20" fill="#000"/>
+
+    <rect x="20" y="110" width="10" height="30" fill="#000"/>
+    <rect x="40" y="120" width="30" height="10" fill="#000"/>
+    <rect x="80" y="110" width="20" height="20" fill="#000"/>
+    <rect x="110" y="120" width="30" height="10" fill="#000"/>
+    <rect x="150" y="110" width="20" height="20" fill="#000"/>
+    <rect x="190" y="110" width="10" height="30" fill="#000"/>
+    <rect x="220" y="110" width="20" height="20" fill="#000"/>
+
+    <rect x="0" y="150" width="20" height="20" fill="#000"/>
+    <rect x="30" y="160" width="20" height="10" fill="#000"/>
+    <rect x="60" y="150" width="10" height="30" fill="#000"/>
+    <rect x="80" y="160" width="20" height="10" fill="#000"/>
+    <rect x="110" y="150" width="20" height="30" fill="#000"/>
+    <rect x="140" y="160" width="30" height="10" fill="#000"/>
+    <rect x="220" y="150" width="30" height="20" fill="#000"/>
+
+    <rect x="70" y="190" width="20" height="20" fill="#000"/>
+    <rect x="100" y="200" width="30" height="10" fill="#000"/>
+    <rect x="140" y="190" width="20" height="30" fill="#000"/>
+    <rect x="220" y="190" width="20" height="10" fill="#000"/>
+
+    <rect x="70" y="230" width="30" height="20" fill="#000"/>
+    <rect x="120" y="220" width="20" height="30" fill="#000"/>
+    <rect x="150" y="230" width="30" height="10" fill="#000"/>
+    <rect x="220" y="230" width="30" height="20" fill="#000"/>
+
+    <!-- Center QRIS Badge Icon -->
+    <rect x="100" y="100" width="50" height="50" rx="8" fill="#ffffff" stroke="#b91c1c" stroke-width="2"/>
+    <text x="125" y="130" fill="#b91c1c" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="14" text-anchor="middle">QRIS</text>
+  </g>
+
+  <!-- GPN / Supported E-Wallets Footnote -->
+  <text x="200" y="458" class="footer-text" font-weight="bold" fill="#374151">SATU QR UNTUK SEMUA APLIKASI PEMBAYARAN</text>
+  <text x="200" y="475" class="footer-text">GoPay • OVO • DANA • ShopeePay • LinkAja • BCA • Mandiri • BRI • BNI</text>
+  <text x="200" y="495" class="footer-text" font-size="9" fill="#9ca3af">ASOSIASI SISTEM PEMBAYARAN INDONESIA (ASPI)</text>
+</svg>
+
